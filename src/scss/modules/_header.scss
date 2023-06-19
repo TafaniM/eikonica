@@ -1,0 +1,20 @@
+.header {
+    font-family: 'Roboto', black;
+    text-transform: uppercase;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.header p {
+    display: inline;
+    margin-right: 100px;
+}
+
+.language p {
+    margin-right: 0px;
+}
+
+.path {
+    border-top: 5px solid var(--green);
+    margin-top: 45px;
+}
