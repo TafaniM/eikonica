@@ -15,10 +15,10 @@ article {
     z-index: 1;
 }
 
-// article img {
-//     width: 600px;
-//     height: auto;
-// }
+article img {
+    width: 100%;
+    height: auto;
+}
 
 h3 {
     font-family: 'Roboto', black;
@@ -38,10 +38,30 @@ article p {
     top: 350;
 }
 
+.size2 img {
+    margin-top: 24px;
+}
+
 .size3 .texte {
     top: 150;
 }
 
+.size3 img {
+    margin-top: 24px;
+}
+
 .size4 .texte {
     top: 350;
+}
+
+.size4 img {
+    margin-top: 24px;
+}
+
+.size6 .texte {
+    top: 150;
+}
+
+.size6 img {
+    margin-top: 21px;
 }
