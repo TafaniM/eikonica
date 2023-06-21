@@ -1,6 +1,7 @@
 .button {
     border: 5px solid black;
     font-family: 'Roboto', black;
+    text-transform: uppercase;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
@@ -8,13 +9,21 @@
     padding: 24px 40px;
     margin-top: 65px;
     margin-bottom: 135px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: black;
+    color: var(--green);
 }
 
 .button.green {
+    background-color: black;
     color: var(--green);
-    border-color: var(--green);
 }
 
 .button.green:hover {
+    background-color: transparent;
     color: black;
 }
