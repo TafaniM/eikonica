@@ -67,9 +67,41 @@ article p {
 }
 
 .article {
-    background-color: var(--green);
     padding-bottom: 24px;
     padding-top: 1px;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+article {
+    filter: brightness(30%);
+    transition: filter 0.3s, opacity 0.3s;
+}
+
+article:hover {
+    filter: brightness(100%);
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.article {
+    background-image: linear-gradient(to right, white, #00BB22);
+    background-size: 200% 100%;
+    background-position: -100% 0;
+    animation: gradient-slide 10s linear infinite;
+}
+
+@keyframes gradient-slide {
+    0% {
+        background-position: -100% 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
 }
