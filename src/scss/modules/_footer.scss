@@ -22,3 +22,14 @@ footer p {
 .margin {
     padding-bottom: 100px;
 }
+
+footer a p {
+    color: white;
+    text-decoration: underline;
+    transition: text-decoration 0.3s ease;
+}
+
+footer a p:hover {
+    color: var(--green);
+    text-decoration: underline;
+}
