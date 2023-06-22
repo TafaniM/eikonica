@@ -1,0 +1,14 @@
+.language input[type="radio"] {
+    display: none;
+}
+
+.language label {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+}
+
+.language input[type="radio"]:checked+label {
+    color: var(--green);
+}
