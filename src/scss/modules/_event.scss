@@ -74,12 +74,12 @@ article p {
     margin-right: 10%;
 }
 
-article {
+article img {
     filter: brightness(30%);
     transition: filter 0.3s, opacity 0.3s;
 }
 
-article:hover {
+article img:hover {
     filter: brightness(100%);
     opacity: 1;
     cursor: pointer;
